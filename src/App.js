@@ -18,7 +18,7 @@ function App() {
       description: "Delicious delicacies!"
     },
     {
-      name: 'landscapes',
+      name: 'landscape',
       description: 'Fields, farmhouses, waterfalls, and the beauty of nature'
     }
   ]);
@@ -34,7 +34,7 @@ function App() {
       >
       </Nav>
       <main>
-        <Gallery></Gallery>
+        <Gallery currentCategory= {currentCategory}></Gallery>
         <About></About>
       </main>
     </div>
